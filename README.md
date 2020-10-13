@@ -1,2 +1,2 @@
-# node-eslint-config
-eslint config for node
+# node-project-config
+Configurations for node.
