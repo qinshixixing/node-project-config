@@ -1,5 +1,5 @@
 {
-  "name": "node-project-config",
+  "name": "@qinshixixing/node-project-config",
   "author": "qinshixixing",
   "version": "1.0.0",
   "peerDependencies": {
