@@ -5,7 +5,8 @@ const config: Linter.Config = {
   env: {
     browser: true,
     node: true,
-    es6: true
+    es2021: true,
+    'shared-node-browser': true
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -14,17 +15,15 @@ const config: Linter.Config = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'node',
+    'plugin:node/recommended',
     'prettier',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'prettier/@typescript-eslint'
   ],
   plugins: ['@typescript-eslint', 'prettier'],
-  rules: {
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { args: 'all', argsIgnorePattern: '^_' }
-    ]
-  }
+  rules: {}
 };
 
 module.exports = config;
