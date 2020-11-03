@@ -24,7 +24,13 @@ const config: Linter.Config = {
   ],
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'import/no-mutable-exports': 'off'
+    'import/no-mutable-exports': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/no-commonjs': 'off',
+    'node/no-unsupported-features/es-syntax': 'off',
+    'node/no-extraneous-import': 'off',
+    'node/no-missing-import': 'off',
+    'import/no-unresolved': 'off'
   }
 };
 

@@ -10,3 +10,4 @@ or
 ```shell script
 npm i -g @qinshixixing/node-project-config
 ```
+
