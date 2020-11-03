@@ -1,8 +1,8 @@
 {
   "name": "@qinshixixing/node-project-config",
   "author": "qinshixixing",
-  "version": "1.0.3",
-  "devDependencies": {
+  "version": "1.0.4",
+  "dependencies": {
     "@tsconfig/node14": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
