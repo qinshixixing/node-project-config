@@ -30,7 +30,9 @@ const config: Linter.Config = {
     'node/no-unsupported-features/es-syntax': 'off',
     'node/no-extraneous-import': 'off',
     'node/no-missing-import': 'off',
-    'import/no-unresolved': 'off'
+    'import/no-unresolved': 'off',
+    'no-process-exit': 'off',
+    'node/shebang': 'off'
   }
 };
 
