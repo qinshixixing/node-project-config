@@ -23,7 +23,9 @@ const config: Linter.Config = {
     'prettier/@typescript-eslint'
   ],
   plugins: ['@typescript-eslint', 'prettier'],
-  rules: {}
+  rules: {
+    'import/no-mutable-exports': 'off'
+  }
 };
 
 module.exports = config;
