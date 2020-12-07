@@ -18,7 +18,10 @@
   },
   "main": "dist",
   "types": "dist",
-  "files": ["dist","typescript"],
+  "files": [
+    "dist",
+    "typescript"
+  ],
   "engines": {
     "node": ">=14.0.0"
   }
