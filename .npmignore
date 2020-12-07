@@ -3,4 +3,4 @@ node_modules
 package-lock.json
 .gitignore
 src
-tsconfig.json
+./tsconfig.json
