@@ -32,7 +32,8 @@ const config: Linter.Config = {
     'node/no-missing-import': 'off',
     'import/no-unresolved': 'off',
     'no-process-exit': 'off',
-    'node/shebang': 'off'
+    'node/shebang': 'off',
+    'import/prefer-default-export': 'off'
   }
 };
 
