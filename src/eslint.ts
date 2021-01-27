@@ -15,8 +15,8 @@ const config: Linter.Config = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
     'node',
+    'plugin:@typescript-eslint/recommended',
     'plugin:node/recommended',
     'prettier',
     'plugin:prettier/recommended',
